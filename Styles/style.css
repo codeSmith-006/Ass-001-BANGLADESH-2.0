@@ -124,3 +124,127 @@ header .banner .banner-content button:hover {
     background-color: #588157;
     color: black;
 }
+
+/* main styles */
+
+main {
+    width: 1513px;
+    height: 4285px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+main .content-vision {
+    width: 1210px;
+    height: 765px;
+}
+
+main .content-vision > .title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .content-vision .description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .content-vision .visions {
+    width: 1210px;
+    height: 325px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+main .content-vision .visions .vision {
+    width: 388px;
+    height: 325px;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    margin-top: 32px;
+}
+
+main .content-vision .visions .vision-2 {
+    background-color: rgb(198, 228, 214);
+}
+
+main .content-vision .visions .vision-2 .vision-content button {
+    background: rgb(9, 161, 92);
+}
+
+main .content-vision .visions .vision-3 {
+    background-color: rgb(247, 235, 207);
+}
+
+main .content-vision .visions .vision .vision-content {
+    width: 358px;
+    height: 295px;
+    padding: 30px;
+}
+
+main .content-vision .visions .vision .icon {
+    width: 62px;
+    height: 62px;
+    background: url(../assets/card-icon.png);
+    margin-bottom: 24px;
+}
+
+main .content-vision .visions .vision .heading {
+    width: 327px;
+    height: 108px;
+    margin-bottom: 24px;
+}
+
+main .content-vision .visions .vision .heading .title {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .content-vision .visions .vision .heading .description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .content-vision .visions .vision button {
+    all: unset;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 10px 19px;
+    cursor: pointer;
+}
+
+main .content-vision .visions .vision button:hover {
+    color: #264653;
+    background: #2a9d8f;
+}
