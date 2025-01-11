@@ -179,6 +179,10 @@ main .content-vision .visions .vision {
     margin-top: 32px;
 }
 
+main .content-vision .visions .vision:hover {
+    background: #bcffdb;
+}
+
 main .content-vision .visions .vision-2 {
     background-color: rgb(198, 228, 214);
 }
@@ -622,8 +626,8 @@ main .content-donate .done {
 }
 
 main .content-donate .done:hover {
-    background-color: #b7e4c7;
-    color: #1b4332;
+    background-color: #6fffe9;
+    color: #0b132b;
 }
 
 main .newsletter {
