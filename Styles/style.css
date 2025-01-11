@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: Fira Sans;
+
 }
 
 /* nav styles */
@@ -318,4 +319,210 @@ main .content-quote .speecher .position {
     letter-spacing: 0%;
     text-align: left;
     margin-left: 22px;
+}
+
+main .recent-news {
+    width: 1210px;
+    height: 120px;
+    margin-top: 80px;
+}
+
+main .recent-news .title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+main .recent-news .description {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+main .new-sat-left {
+    width: 1210px;
+    height: 402px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #DDE9FD;
+    gap: 32px;
+    margin-top: 48px;
+}
+
+main .new-sat-left .image {
+    width: 385px;
+    height: 306px;
+    background-color: black;
+    border-radius: 24px;
+    background: url(../assets/satelite.png);
+}
+
+main .new-sat-left .content {
+    width: 703px;
+    height: 290px;
+}
+
+main .new-sat-left .content .heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .new-sat-left .content .logo {
+    width: 134px;
+    height: 40px;
+    background: url(../assets/al-jazeera.png);
+    margin-bottom: 12px;
+}
+
+main .new-sat-left .content .publish-time {
+    display: flex;
+    gap: 12px;
+}
+
+main .new-sat-left .content .publish-time .date, .time {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .new-sat-left .content .news {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+main .new-sat-left .content button {
+    all: unset;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+
+main .new-sat-left .content button:hover {
+    background-color: #8ecae6;
+    color: #023047;
+}
+
+main .new-sat-right {
+    width: 1210px;
+    height: 402px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    background: #DDE9FD;
+    gap: 32px;
+    margin-top: 12px;
+}
+
+main .new-sat-right .image {
+    width: 385px;
+    height: 306px;
+    background-color: black;
+    border-radius: 24px;
+    background: url(../assets/satelite.png);
+}
+
+main .new-sat-right .content {
+    width: 703px;
+    height: 290px;
+}
+
+main .new-sat-right .content .heading {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .new-sat-right .content .logo {
+    width: 134px;
+    height: 40px;
+    background: url(../assets/al-jazeera.png);
+    margin-bottom: 12px;
+}
+
+main .new-sat-right .content .publish-time {
+    display: flex;
+    gap: 12px;
+}
+
+main .new-sat-right .content .publish-time .date, .time {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+main .new-sat-right .content .news {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+main .new-sat-right .content button {
+    all: unset;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+}
+
+main .new-sat-right .content button:hover {
+    background-color: #8ecae6;
+    color: #023047;
 }
