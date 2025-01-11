@@ -520,9 +520,107 @@ main .new-sat-right .content button {
     padding: 13px 26px;
     border-radius: 8px;
     background: rgb(0, 106, 80);
+    cursor: pointer;
 }
 
 main .new-sat-right .content button:hover {
     background-color: #8ecae6;
     color: #023047;
+}
+
+main .content-donate {
+    width: 1210px;
+    height: 464px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 80px;
+}
+
+main .content-donate .heading {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+main .content-donate .description {
+    width: 1044px;
+    height: 48px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+main .content-donate .money-section {
+    width: 1010px;
+    height: 128px;
+    display: flex;
+    gap: 22px;
+    margin-bottom: 32px;
+}
+
+main .content-donate .money-section .one {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+main .content-donate .money-section .one:hover {
+    background: #e9ecef;
+    color: #136f63;
+}
+
+main .content-donate input {
+    all: unset;
+    width: 974px;
+    height: 64px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+main .content-donate .done {
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 17px 34px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    cursor: pointer;
+}
+
+main .content-donate .done:hover {
+    background-color: #b7e4c7;
+    color: #1b4332;
 }
