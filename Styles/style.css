@@ -590,9 +590,76 @@ main .content-donate .money-section .one {
     cursor: pointer;
 }
 
+main .content-donate .money-section .two {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+main .content-donate .money-section .three {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
+main .content-donate .money-section .four {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    cursor: pointer;
+}
+
 main .content-donate .money-section .one:hover {
     background: #e9ecef;
-    color: #136f63;
+    background-color: #136f63;
+    color: white;
+}
+
+main .content-donate .money-section .two:hover {
+    background: #e9ecef;
+    background-color: #1bc221;
+    color: white;
+}
+
+main .content-donate .money-section .three:hover {
+    background: #e9ecef;
+    background-color: #c2951b;
+    color: white;
+}
+
+main .content-donate .money-section .four:hover {
+    background: #e9ecef;
+    background-color: #c21b82;
+    color: white;
 }
 
 main .content-donate input {
